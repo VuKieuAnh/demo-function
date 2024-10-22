@@ -24,10 +24,10 @@ function isPrime2() {
     let check = isPrime(a);
     let result = "";
     if (check){
-        result += `${a} la so nguyen to`;
+        result = `${a} la so nguyen to`;
     }
     else {
-        result += `${a} khong la so nguyen to`;
+        result = `${a} khong la so nguyen to`;
     }
     document.getElementById("result").innerHTML = result;
 }
